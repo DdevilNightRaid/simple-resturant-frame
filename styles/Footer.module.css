@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&family=Playfair+Display:wght@700&display=swap');
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #830514;
+    padding: 2rem 7rem;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: ro;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.footIconsBox{
+    background: #DEDCD8;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.footIcons{
+    color: #830514;
+    font-size: 2rem;
+}
+.midFoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: #DEDCD8;
+}
+.midName{
+    font-size: 20px;
+}
+.midNum{
+    font-size: 18px;
+}
+.footBar{
+    display: block;
+    height: 3rem;
+    width: 2px;
+    background: #DEDCD8;
+}
+.finalFoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.finalFoot a{
+    color: #DEDCD8;
+    font-weight: 800;
+    font-size: 18px;
+}
+.finalFoot a:hover{
+    color: #070707;
+}
+.themisfitofnightraid{
+    padding: 1rem 0;
+    text-align: center;
+    color: #EAE6E5;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.themisfitofnightraid a{
+    color: #EAE6E5;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-decoration: underline;
+}
+@media screen and (max-width: 700px) {
+    .footer{
+        padding: 3rem 1rem;
+    }
+    .midFoot{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

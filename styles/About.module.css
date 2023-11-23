@@ -1,0 +1,240 @@
+.main {
+    background-color: #830514;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navHolder {
+    padding: 0rem 7rem;
+    background-color: #830514;
+}
+
+.punchLine {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+}
+
+.punchLine h2 {
+    font-family: 'Alkatra', cursive;
+    font-size: 45px;
+    color: #E7B823;
+}
+
+.punchLine h1 {
+    font-size: 18px;
+    color: #DEDCD8;
+}
+
+.c1Field {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 40px; */
+    padding: 0rem 7rem;
+}
+
+.heroImage {
+    width: 60%;
+
+}
+
+.front_img {
+    height: calc(30rem - 20px);
+    width: calc(30rem - 20px);
+}
+
+.c2Field {
+    color: #830514;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Alkatra', cursive;
+    font-size: 26px;
+    font-weight: 700;
+    gap: 1rem;
+    background: #DEDCD8;
+    padding: 0 7rem;
+}
+
+.c3Field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.c2Field h3 {
+    font-size: 16px;
+    color: #070707;
+    font-weight: 600;
+}
+
+.delivery,
+.man {
+    height: calc(18rem - 20px);
+    width: calc(18rem - 20px);
+}
+
+.rice,
+.momo,
+.burger,
+.pizza {
+    height: calc(10rem - 20px);
+    width: calc(10rem - 20px);
+}
+
+.sandwish {
+    height: calc(12.5rem - 20px);
+    width: calc(12.5rem - 20px);
+
+}
+
+.c4Field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background: #DEDCD8;
+}
+
+.bttn {
+    background: #DEDCD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.btn {
+    padding: 15px 20px;
+    background: #DEDCD8;
+    color: #070707;
+    font-family: 'Alkatra', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #070707;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn a{
+    color: #070707;
+    font-family: 'Alkatra', cursive;
+}
+
+@media screen and (max-width: 700px) {
+    .main {
+        background-color: #830514;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    .navHolder {
+        padding: 0.5rem;
+        background-color: #830514;
+    }
+    
+    .punchLine {
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 1rem;
+    }
+
+    .punchLine h2 {
+        font-family: 'Alkatra', cursive;
+        font-size: 35px;
+        color: #E7B823;
+    }
+
+    .punchLine h1 {
+        font-size: 18px;
+        color: #DEDCD8;
+    }
+
+    .c1Field {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .heroImage {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+
+    .front_img {
+        height: calc(22rem - 20px);
+        width: calc(22rem - 20px);
+    }
+
+    .c2Field {
+        color: #830514;
+        display: flex;
+        flex-direction: column;
+        font-weight: 700;
+        gap: 1rem;
+        background: #DEDCD8;
+        padding: 1rem;
+    }
+
+    .rice,
+    .momo,
+    .burger,
+    .pizza {
+        height: calc(9rem - 20px);
+        width: calc(9rem - 20px);
+    }
+
+    .sandwish {
+        height: calc(11.5rem - 20px);
+        width: calc(11.5rem - 20px);
+
+    }
+
+    .c4Field {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+        background: #DEDCD8;
+    }
+
+    .bttn {
+        background: #DEDCD8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    .btn {
+        padding: 15px 20px;
+        background: #DEDCD8;
+        color: #070707;
+        font-family: 'Alkatra', cursive;
+        font-size: 20px;
+        font-weight: 700;
+        border: 1px solid #070707;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+}

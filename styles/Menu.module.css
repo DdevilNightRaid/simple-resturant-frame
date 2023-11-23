@@ -1,0 +1,165 @@
+.navHolder {
+    padding: 0rem 7rem;
+    background-color: #830514;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #DEDCD8;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F3F3F2;
+    background-color: #830514;
+    padding: 100px;
+    width: 100%;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menus h5 {
+    font-size: 16.5px;
+    color: #272526;
+}
+
+.title h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.title p {
+    font-size: 20px;
+}
+
+.c1Field {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    background-color: #DEDCD8;
+    width: 100%;
+    padding: 2rem 4rem;
+}
+
+.c1Field1 {
+    border: 2px solid #272526;
+    background-color: #DEDCD8;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 0.4rem;
+}
+
+.c1Field1 h3 {
+    color: #830514;
+    font-size: 25px;
+    padding: 0.5rem 0;
+}
+
+.c1Field1 h4 {
+    color: #272526;
+    font-size: 16.5px;
+    padding: 0.5rem 0;
+}
+
+.c1Field1 span {
+    display: inline-block;
+    border-bottom: 1px solid #272526;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .navHolder {
+        padding: 0.5rem;
+        background-color: #830514;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0.9rem;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #DEDCD8;
+        background-color: #830514;
+        padding: 20px 10px;
+        width: 100%;
+    }
+
+    .menus {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menus h5 {
+        font-size: 16.5px;
+    }
+
+    .title h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .title p {
+        font-size: 16px;
+    }
+
+    .c1Field {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+        background-color: #DEDCD8;
+        width: 100%;
+        padding: 0.5rem 0rem;
+    }
+
+    .c1Field1 {
+        border: 2px solid black;
+        background-color: #F3F3F2;
+        width: 100%;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 0.4rem;
+    }
+
+    .c1Field1 h3 {
+        color: #830514;
+        font-size: 25px;
+        padding: 0.5rem 0;
+    }
+
+    .c1Field1 h4 {
+        color: #2A2B2B;
+        font-size: 16.5px;
+        padding: 0.5rem 0;
+    }
+
+    .c1Field1 span {
+        display: inline-block;
+        border-bottom: 1px solid #2A2B2B;
+        width: 100%;
+    }
+}
